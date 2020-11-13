@@ -14,11 +14,12 @@ body {
 }
 
 button {
-    background-color: royalblue;
+    background-color: dodgerblue;
     border: none;
     color: white;
     position: fixed;
     top: 20px;
+    right: 20px;
     padding: 1rem;
 }
 
@@ -27,13 +28,15 @@ button.active {
 }
 
 nav {
-    background-color: royalblue;
+    background-color: dodgerblue;
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
     padding: 2rem;
     transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+
 }
 
 nav.active {
@@ -43,6 +46,7 @@ nav.active {
 nav ul {
     padding: 0;
     list-style-type: none;
+    margin:0;
 }
 
 nav ul li {
@@ -53,3 +57,4 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
