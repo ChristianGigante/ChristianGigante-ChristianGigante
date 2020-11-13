@@ -1,5 +1,6 @@
-const text = "Christian Gesoyot Gigante";
+const text = "How Do You Do, Mary Ann Camay?";
 
+// text.style.color = "red";
 let index = 0;
 
 function writeText() {
@@ -12,4 +13,4 @@ function writeText() {
     }
 }
 
-setInterval(writeText,100);
+setInterval(writeText,200);
